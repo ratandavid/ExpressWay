@@ -2,45 +2,46 @@
     padding:0px;
     margin:0px;
 }
+body{
+    background-color: #00000029!important;
+}
 section{
     margin:0 auto!important;
     max-width:375px!important;
-    max-height: 812px!important;
-    border: 1px dotted #707070;
+    border:1px dotted black;
+    background-color: #F9F9F9!important;
 }
 .my_header{
-    border-radius: 60px;
-    box-shadow: 0 5px #77777777;
+    border-radius: 10px!important;
+    box-shadow: 0 5px 4px #77777777;
+    width: 100% !important;
+    background-color: #fff;
 }
-h3{
+.my_header h3{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif!important;
     color:black;
-    
 }
 
 .index_img{
     width: 100%;
-    margin-top: 10%;
+    margin-top: 2%;
     position:relative;
 }
 
 .form{
     position: absolute;
-    bottom:15%;
-    border-radius: 15px;
+    border-radius: 10px;
+    bottom: 65px!important;
     background-color:#FD7C22!important;
 }
-.formanimate .form-group{
-    margin-top:10%;
-}
+
 .form-group input{
     display: inline-flex!important;
     border-radius: 20px;
     box-shadow: none!important;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif!important;
     color:#707070;
-    margin-top: 10%;
-    margin-bottom: 5%;
+    margin-top: 5%;
 }
 .form-group h4{
     text-align: center;
@@ -51,4 +52,46 @@ h3{
     text-align: center;
     color: #fff;
     padding-top:5%;
+}
+
+.Track{
+    color:#fff!important;
+    background:#3240FF!important;
+    margin-top: 5%;
+    border-radius: 10px!important;
+    width:50%;
+}
+.Our_Services{
+    margin-top: 5%;
+    background-color:#fff;
+    border-radius: 10px!important;
+    position: relative;
+}
+
+.Our_Services h6{
+    margin-top: 5%;
+}
+.Our_Services p{   
+    font-size: 10px;
+}
+
+footer{
+    bottom: 0%;
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    z-index: 5;
+    box-shadow: 0 -5px 8px #77777777;
+    border-radius: 10px 10px 0 0;
+}
+
+footer .my_img{
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+
+.Nav_format{
+    text-align: center;
+    padding: 5px;
 }
