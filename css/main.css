@@ -8,7 +8,6 @@ body{
 section{
     margin:0 auto!important;
     max-width:375px!important;
-    border:1px dotted black;
     background-color: #F9F9F9!important;
 }
 .my_header{
@@ -65,7 +64,6 @@ section{
     margin-top: 5%;
     background-color:#fff;
     border-radius: 10px!important;
-    position: relative;
 }
 
 .Our_Services h6{
@@ -76,10 +74,12 @@ section{
 }
 
 footer{
-    bottom: 0%;
+    bottom: -1%;
     position: fixed;
     background-color: #fff;
+    max-width:375px!important;
     width: 100%;
+    margin:0 auto!important;
     z-index: 5;
     box-shadow: 0 -5px 8px #77777777;
     border-radius: 10px 10px 0 0;
@@ -94,4 +94,34 @@ footer .my_img{
 .Nav_format{
     text-align: center;
     padding: 5px;
+}
+
+.whole-background{
+    width:100%!important;
+    height:700px;
+    margin-top: 2%;
+    background-image:url(../img/37273.png) ;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+.search{
+    margin-top: 5%;
+    border-radius: 20px;
+    border-style: none;
+    font-size: 20px;
+    color:#FD7C22;
+    width:150px;
+    box-shadow: none;
+    padding-left:10px ;
+}
+.my_container{
+    margin-top: 5%;
+    background:white;
+    border-radius: 20px;
+}
+.my_progress span{
+    margin-left:4px;
+    font-size:16px;
 }
