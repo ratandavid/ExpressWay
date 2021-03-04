@@ -125,3 +125,71 @@ footer .my_img{
     margin-left:4px;
     font-size:16px;
 }
+.map-wrapper{
+    max-width:375px;
+    margin-top:10px;
+    margin-left:0px!important;
+}
+.map{
+    width:100%;
+}
+.my_row{
+    box-shadow: 0 -5px 8px #77777777;
+    border-radius:10px 10px 0 0;
+    position: relative;
+}
+.my_row .para{
+    background-color: #F5671A;
+    opacity: 43%; 
+    color:#fff; 
+    width: 90px; 
+    border-radius: 10px; 
+    padding: 0 10px;
+}
+.box{
+    position:absolute;
+    bottom:20%;
+    box-shadow: 0 -5px 8px #77777777;
+    border-radius: 10px;
+}
+.Arrival_para p{
+    color:#F5671A;
+    font-size:15px;
+    background-color: none!important;
+}
+.Weight_para p{
+    color:#F5671A;
+    font-size:15px;
+    background-color: none!important;
+
+}
+
+
+@media only screen and (max-width: 600px){
+    
+
+.box{
+    width:88px;
+    margin-bottom:-45px;
+}    
+.my_product-name h5  {  
+    text-align: center;     
+}
+.my_product-name .para{
+    text-align: center;
+    margin-left:105px;
+}
+.Arrival_para{
+    max-width:50%!important;
+}
+.Weight_para{
+    max-width: 50%!important;
+}
+.my_check{
+    width:20%!important;
+    float:left;
+}
+.check_para{
+    width:80%!important;
+}
+}
